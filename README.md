@@ -1,4 +1,4 @@
-# 🛍️ Quicklet – Modern Full Stack E-commerce Website
+# 🛍️ E-Commerce – Modern Full Stack E-commerce Website
 
 **E-Commerce** is a fully functional and scalable e-commerce platform built with a modern tech stack. The project includes a responsive React frontend, a Node.js + Express backend, and is designed for easy integration of features like authentication, payments, and admin control and order management.
 
