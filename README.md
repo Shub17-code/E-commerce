@@ -1,13 +1,13 @@
 # 🛍️ Quicklet – Modern Full Stack E-commerce Website
 
-**Quicklet** is a fully functional and scalable e-commerce platform built with a modern tech stack. The project includes a responsive React frontend, a Node.js + Express backend, and is designed for easy integration of features like authentication, payments, and admin control and order management.
+**E-Commerce** is a fully functional and scalable e-commerce platform built with a modern tech stack. The project includes a responsive React frontend, a Node.js + Express backend, and is designed for easy integration of features like authentication, payments, and admin control and order management.
 
 ---
 
 ## 🌐 Live Demo
 
-Frontend: [https://quicklet-frontend.onrender.com](https://quicklet-frontend.onrender.com)  
-Backend: [https://quicklet-backend.onrender.com](https://quicklet-backend.onrender.com)
+Frontend: [https://quicklet-frontend.onrender.com](https://ecommerce-frontend.onrender.com)  
+Backend: [https://quicklet-backend.onrender.com](https://e-commerce-backend.onrender.com)
 
 ---
 
@@ -36,7 +36,7 @@ Backend: [https://quicklet-backend.onrender.com](https://quicklet-backend.onrend
 ## 📁 Folder Structure
 
 ```
-Quicklet/
+E-Commerce/
 ├── client/                 # Frontend (React + Vite)
 │   ├── public/
 │   ├── src/
@@ -61,7 +61,8 @@ Quicklet/
 ├── .gitignore
 └── README.md
 
-````
+```
+
 ---
 
 ## 🚀 Getting Started
@@ -79,9 +80,8 @@ Quicklet/
 #### 1 Clone the repo
 
 ```bash
-git clone https://github.com/SC1709/E-commerce.git
-cd quicklet
-````
+https://github.com/Shub17-code/E-commerce.git
+```
 
 ### 🖥️ Frontend (Client)
 
@@ -89,7 +89,7 @@ cd quicklet
 cd frontend
 npm install
 npm run dev
-````
+```
 
 ### 🛠️ Backend (Server)
 
@@ -116,26 +116,26 @@ JWT_SECRET=your_jwt_secret
 
 ## 🚀 Features
 
-* 🏪 Product listing & detail view
-* 🛍️ Browse dynamic products
-* 🛒 Add to Cart functionality
-* 🎨 Fully responsive UI
-* 🧭 Client-side routing with React Router
-* 📡 API Integration with Express backend
-* 📦 MongoDB schema design for products
-* 👤 Future scope: Auth, Payments, Admin dashboard
+- 🏪 Product listing & detail view
+- 🛍️ Browse dynamic products
+- 🛒 Add to Cart functionality
+- 🎨 Fully responsive UI
+- 🧭 Client-side routing with React Router
+- 📡 API Integration with Express backend
+- 📦 MongoDB schema design for products
+- 👤 Future scope: Auth, Payments, Admin dashboard
 
 ---
 
 ## 🔮 Future Enhancements
 
-* 🧾 User Authentication (JWT, bcrypt)
-* 📦 Product CRUD with Admin role
-* 💳 Payment Gateway (Razorpay/Stripe)
-* 🛍️ Order management system
-* 📊 Sales analytics dashboard
-* 📦Product filters & search
-* 📧 Email Notifications (Nodemailer)
+- 🧾 User Authentication (JWT, bcrypt)
+- 📦 Product CRUD with Admin role
+- 💳 Payment Gateway (Razorpay/Stripe)
+- 🛍️ Order management system
+- 📊 Sales analytics dashboard
+- 📦Product filters & search
+- 📧 Email Notifications (Nodemailer)
 
 ---
 
@@ -145,13 +145,13 @@ JWT_SECRET=your_jwt_secret
 
 #### 🛍️ Product Routes
 
-| Method | Endpoint              | Description                  | Access     |
-|--------|-----------------------|------------------------------|------------|
-| GET    | `/api/products`       | Fetch all products           | Public     |
-| GET    | `/api/products/:id`   | Fetch product by ID          | Public     |
-| POST   | `/api/products`       | Add a new product            | Admin Only |
-| PUT    | `/api/products/:id`   | Update product by ID         | Admin Only |
-| DELETE | `/api/products/:id`   | Delete product by ID         | Admin Only |
+| Method | Endpoint            | Description          | Access     |
+| ------ | ------------------- | -------------------- | ---------- |
+| GET    | `/api/products`     | Fetch all products   | Public     |
+| GET    | `/api/products/:id` | Fetch product by ID  | Public     |
+| POST   | `/api/products`     | Add a new product    | Admin Only |
+| PUT    | `/api/products/:id` | Update product by ID | Admin Only |
+| DELETE | `/api/products/:id` | Delete product by ID | Admin Only |
 
 > These endpoints use MongoDB as the primary data store and are connected using Mongoose models.
 
@@ -166,7 +166,7 @@ JWT_SECRET=your_jwt_secret
 
 ### 🤝 Contributing
 
-We welcome contributions from developers of all experience levels! Help us improve **Quicklet** by fixing bugs, adding features, or refining the UI/UX.
+We welcome contributions from developers of all experience levels! Help us improve **E-Commerce** by fixing bugs, adding features, or refining the UI/UX.
 
 #### 🔧 How to Contribute
 
@@ -174,23 +174,28 @@ We welcome contributions from developers of all experience levels! Help us impro
 2. **Clone** your fork:
    ```bash
    git clone https://github.com/your-username/E-commerce.git
-   make specific changes 
+   make specific changes
+   ```
 3. **Create** a new branch:
-    ```bash
-    git checkout -b feature/your-feature-name
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
 4. **Make** your changes (frontend, backend)
 5. **Commit** and **push**:
-    ```bash
-    git add .
-    git commit -m "Add: your feature"
-    git push origin feature/your-feature-name
-6.  Open a **Pull** Request (PR) with a clear description
+   ```bash
+   git add .
+   git commit -m "Add: your feature"
+   git push origin feature/your-feature-name
+   ```
+6. Open a **Pull** Request (PR) with a clear description
 
 🧰 Contribution Tips
+
 1. Follow existing code styles
 2. Test your changes before pushing
 3. Link related issues if applicable
 4. Keep PRs focused and small
+
 ---
 
 ## 📃 License
@@ -201,9 +206,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👨‍💻 Developed & Maintained by
 
-**Sachin Choudhary**
-• [🐙 GitHub](https://github.com/SC1709) • [🔗 LinkedIn](https://linkedin.com/in/sachin-choudhary)
+**Shubham Choudhary**
+• [🐙 GitHub](https://github.com/Shub17-code)
 
-> *"Quicklet – Your one-stop destination for effortless online shopping."*
+> _"E-Commerce – Your one-stop destination for effortless online shopping."_
+
+```
 
 ```
